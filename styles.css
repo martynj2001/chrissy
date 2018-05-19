@@ -1,0 +1,28 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.title {
+    font-family: 'Bilbo', cursive;
+    color: rgb(149, 171, 99)
+}
+
+.brand-li {
+    float: left;
+    list-style: none;
+}
+#brand-text {
+    padding-top: 10px;
+    text-align: center;
+}
+#lilly {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+
+/* Forces Bootstrap Navbar to spread out over full page */
+.navbar-collapse { padding: 0; } /* forces the nav to take full container with */
+.navbar-nav > li > a { text-transform: uppercase; }
+.navbar-nav > li:first-child > a, .navbar-nav > li:last-child > a { padding: 0; }
+.navbar-nav { display: table; width: 100%; margin: 0; }
+.navbar-nav > li { display: table-cell; text-align: center; float: none; }
