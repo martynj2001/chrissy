@@ -28,7 +28,7 @@
 		<div class='container-fluid'>
 
 			<header class='row'>
-				<div class='col-md-4 col-xs-12'>
+				<div class='col-md-8 col-xs-12'>
 					<ul class='brand-text'>
 						<li class='brand-li'id='brand-text'>
 							<h1 class="title">Chrissy's Therapies</h1>
@@ -36,9 +36,6 @@
 						</li>
 						<li class='brand-li'><img id='lilly' src="images/lilly.png" alt="Chrissy's Lilly"></li>
 					</ul>
-				</div>
-				<div class='col-md-4 col-xs-12'>
-					<!-- Space -->
 				</div>
 				<div class='col-md-4 col-xs-12'>
 					<!-- Facebook bits -->
@@ -57,11 +54,13 @@
 				<a class='navbar-brand' href="#">     </a>
 				<ul class='navbar-nav mr-auto'> 
 					<li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Treatments</a></li>
 					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
 					<li class="nav-item"><a class="nav-link" href="#">Prices</a></li>
 					<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
 				</ul>
 			</nav>
+			<!--Carousel-->
 			<div class="row">
 					<div id="page_slider" class="carousel slide" data-ride="carousel">
 							<ol class="carousel-indicators">
@@ -72,16 +71,35 @@
 							</ol>
 							<div class="carousel-inner">
 									<div class="carousel-item active">
-										<img class="d-block w-100" src="images/slide_1.png" alt="First slide">
+										<img class="d-block w-100" src="images/slide_1.png" alt="Reflexology">
+										<div class="carousel-caption d-block d-md-block carousel-text">
+											<h5>Reflexology</h5>
+											<p class="d-none d-md-block">A gental yet powerful holistic treatment involving the stiulation of speciifc points on the feet (or hands)</p>
+											<button type="button" class="btn btn-outline-light d-none d-md-block" data-toggle="modal" data-target="#Reflexology">Find out more</button>
+										</div>
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="images/slide_2.png" alt="Second slide">
+										<img class="d-block w-100" src="images/slide_2.png" alt="Second slide">	
+										<div class="carousel-caption d-block d-md-block carousel-text">
+												<h5>Swedish Massage</h5>
+												<p class="d-none d-md-block">The gentle manipulation of the bodys soft tissues to break down fissures (knots) and tension</p>
+												<button type="button" class="btn btn-outline-light d-none d-md-block" data-toggle="modal" data-target="#SwedishMassage">Find out more</button>
+											</div>
 									</div>
 									<div class="carousel-item">
 										<img class="d-block w-100" src="images/slide_3.png" alt="Third slide">
+										<div class="carousel-caption d-block d-md-block carousel-text">
+												<h5>Indian Head Massage</h5>
+												<p class="d-none d-md-block">A deeply relaxing, gental treatment of the head, neck and shoulders.</p>
+												<button type="button" class="btn btn-outline-light d-none d-md-block" data-toggle="modal" data-target="#IndianHead">Find out more</button>
+											</div>
 									</div>
 									<div class="carousel-item">
 											<img class="d-block w-100" src="images/slide_4.png" alt="Third slide">
+											<div class="carousel-caption d-block d-md-block carousel-text">
+													<h5>Feel the benefits of balance.</h5>
+													<p class="d-none d-md-block">Get £5 of of your first treatment.	</p>
+												</div>
 										</div>
 								</div>
 								<a class="carousel-control-prev" href="#page_slider" role="button" data-slide="prev">
@@ -96,11 +114,100 @@
 					</div>
 
 			</div>
-			
-		
-	  
-    
 
+
+			<!-- Modals -->
+			<!-- Reflexology -->
+			<div class="modal fade" id="Reflexology" tabindex="-1" role="dialog" aria-labelledby="ReflexologyTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="ReflexologyTitle">Reflexology</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body text-black">
+								Reflexology is a gentle yet powerful holistic treatment involving the stimulation of specific points on the feet (or hands)
+										that correspond to certain parts of the body. By stimulating these points you promote the bodies natural healing process which 
+										in turn enables nature balance and physical wellbeing.
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+								<a class="btn btn-outline-secondary" href="#">Treatments</a>
+								<a class="btn btn-outline-secondary" href="#">Contact</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Swedish Massage -->
+				<div class="modal fade" id="SwedishMassage" tabindex="-1" role="dialog" aria-labelledby="MassageTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="MassageTitle">Swedish Massage</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body text-black">
+									<p>Swedish Massage is the gentle manipulation of the soft tissues through a mixture of strokes in order to breakdown
+										fissures (knots), imporve circulation and provide relaxation.
+
+										Benefits include:
+										<ul>
+											<li>Relaxation</li>
+											<li>Stress relief</li>
+											<li>Improved sleep</li>
+											<li>Improved circulation</li>
+											<li>Improved lymphatic drainage</li>
+											<li>Reduce muscular aches and pains including headaches and backaches</li>
+										</ul>
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+									<a class="btn btn-outline-secondary" href="#">Treatments</a>
+									<a class="btn btn-outline-secondary" href="#">Contact</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- IndianHead -->
+				<div class="modal fade" id="IndianHead" tabindex="-1" role="dialog" aria-labelledby="MassageTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="MassageTitle">Indian Head Massage</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body text-black">
+									<p>SIndian Head massage is a gentle but deeply relaxing treatment of the head, neck and shoulders. Base don Treatments
+										originating from India it is designed to completely relax the body and mind, enabling the natural energy pathways to clear and blance.
+
+										Benefits include:
+										<ul>
+											<li>Deep relaxation</li>
+											<li>Improved sleep</li>
+											<li>Feeling of wellbeing/li>
+											<li>Clearing of sinuses</li>
+											<li>Reduction of headaches</li>
+										</ul>
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+									<a class="btn btn-outline-secondary" href="#">Treatments</a>
+									<a class="btn btn-outline-secondary" href="#">Contact</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+		
+	
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
