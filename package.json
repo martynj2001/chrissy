@@ -1,0 +1,28 @@
+{
+  "name": "chrissy_therapies",
+  "version": "1.0.0",
+  "description": "Basic webpage for Chrissy's Therapies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martynj2001/chrissy.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "business",
+    "therapies",
+    "holistic"
+  ],
+  "author": "Martyn Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martynj2001/chrissy/issues"
+  },
+  "homepage": "https://github.com/martynj2001/chrissy#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}

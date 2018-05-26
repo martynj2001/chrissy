@@ -1,0 +1,82 @@
+// main.scss - Overide Bootstrap 4 themes
+
+// Bootstrap variables overrides
+$theme-colors: (
+  "light": #e2f0d6
+);
+
+// Include Bootstrap componants
+@import "node_modules/bootstrap/scss/bootstrap";
+
+/* Required
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// Site custom
+@import "node_modules/bootstrap/scss/utilities";
+@import "node_modules/bootstrap/scss/grid";
+@import "node_modules/bootstrap/scss/navbar";
+@import "node_modules/bootstrap/scss/transitions";
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/buttons";
+@import "node_modules/bootstrap/scss/modal";
+@import "node_modules/bootstrap/scss/carousel";
+@import "node_modules/bootstrap/scss/images";
+//@import "node_modules/bootstrap/scss/nav";*/
+
+
+
+
+// styles.css
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 40px;
+}
+.title {
+    font-family: 'Bilbo', cursive;
+    color: rgb(149, 171, 99);
+    font-size: 52px;
+}
+
+.brand-li {
+    float: left;
+    list-style: none;
+}
+#brand-text {
+    padding-top: 10px;
+    text-align: center;
+}
+#lilly {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/* Forces Bootstrap Navbar to spread out over full page */
+.navbar-collapse { padding: 0; } /* forces the nav to take full container with */
+.navbar-nav > li > a { text-transform: uppercase; }
+.navbar-nav > li:first-child > a, .navbar-nav > li:last-child > a { padding: 0; }
+.navbar-nav { display: table; width: 100%; margin: 0; }
+.navbar-nav > li { display: table-cell; text-align: center; float: none; }
+
+#page_slider {
+    width: 98%; 
+    height: 50%;
+    margin: 0 auto
+}
+
+.carousel-text {
+    color: white;
+    background-color: rgba(0,0,0, 0.4);
+    text-align: left;
+    padding: 10px;
+}
+.carousel-control-prev-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
