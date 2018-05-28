@@ -6775,6 +6775,9 @@ body {
   color: #95ab63;
   font-size: 52px; }
 
+a > img {
+  padding-right: 10px; }
+
 .brand-li {
   float: left;
   list-style: none; }
