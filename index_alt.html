@@ -8,8 +8,7 @@
     <!-- CSS --
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Bilbo|Marck+Script|Raleway" rel="stylesheet">
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -18,227 +17,244 @@
 </head>
 	
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div class="container-fluid">
-            <a class="title navbar-brand" href="#">
-                <img src="images/logo_sm.png">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="nav navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Treatments
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Swedish Massage</a>
-                    <a class="dropdown-item" href="#">Indian Head Massage</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Reflexology</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Prices</a>
-                </li>
-                </ul>   
-            </div>
-            
-        </nav>
-    </header>
 
-    <main class="home">
-        <!--Carousel-->
-        <div class="row">
-            <div id="page_slider" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                            <li data-target="#page_slider" data-slide-to="0" class="active"></li>
-                            <li data-target="#page_slider" data-slide-to="1"></li>
-                            <li data-target="#page_slider" data-slide-to="2"></li>
-                            <li data-target="#page_slider" data-slide-to="3"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="images/slide_1.png" alt="Reflexology">
-                                <div class="carousel-caption d-block d-md-block carousel-text">
-                                    <h5>Reflexology</h5>
-                                    <p class="d-none d-md-block">A gental yet powerful holistic treatment involving the stiulation of speciifc points on the feet (or hands)</p>
-                                    <button type="button" class="btn btn-outline-light d-none d-md-block" data-toggle="modal" data-target="#Reflexology">Find out more</button>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/slide_2.png" alt="Second slide">	
-                                <div class="carousel-caption d-block d-md-block carousel-text">
-                                        <h5>Swedish Massage</h5>
-                                        <p class="d-none d-md-block">The gentle manipulation of the bodys soft tissues to break down fissures (knots) and tension</p>
-                                        <button type="button" class="btn btn-outline-light d-none d-md-block" data-toggle="modal" data-target="#SwedishMassage">Find out more</button>
-                                    </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/slide_3.png" alt="Third slide">
-                                <div class="carousel-caption d-block d-md-block carousel-text">
-                                        <h5>Indian Head Massage</h5>
-                                        <p class="d-none d-md-block">A deeply relaxing, gental treatment of the head, neck and shoulders.</p>
-                                        <button type="button" class="btn btn-outline-light d-none d-md-block" data-toggle="modal" data-target="#IndianHead">Find out more</button>
-                                    </div>
-                            </div>
-                            <div class="carousel-item">
-                                    <img class="d-block w-100" src="images/slide_4.png" alt="Third slide">
-                                    <div class="carousel-caption d-block d-md-block carousel-text">
-                                            <h5>Feel the benefits of balance.</h5>
-                                            <p class="d-none d-md-block">Get £5 of of your first treatment.	</p>
-                                        </div>
-                                </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#page_slider" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#page_slider" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="padding">
-        <div class="container-fluid">
-            
-            <div class="row">
-                <div class="col-sm-6 text-center">
-                    <img src="images/profile.jpg" class="img-thumbnail img-fluid rounded mx-auto d-block" alt="Responsive image"> 
-                </div>
-                <div class="col-sm-6 mx-auto">
-                    <h4 class="text-center"> Chrissy Jones - Holistic Therapist MFHT</h4>
-                    <h4><small class="text-muted">Who am I...</small></h4>
-                    <p> I was introduced to Complementary Therapies as a child when I was treated for severe headaches is suffered following a road traffic accident by an osteopath. Over the following years i turned to other therapies for various reasons and i have received chiropractic care, massage therapy and during a particularly turbulent time in my life i came across and fell in love with reflexology.
-                        Following my marriage and the subsequent relocation of our home i decided it was time to leave my previous career in HR and Recruitment and embark on a new path. 
-                        I initially qualified in Swedish Massage in 2010. This was followed by qualifications in Indian Head Massage, Pregnancy Massage and Reflexology. I offer these treatments as a mobile therapist or from my home. 
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+    <a class="title navbar-brand" href="#">
+        <img src="images/logo_sm.png">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
     
-                        On a personal note I have two children and a dog and i love spending time with the family and exploring new areas of the country in our campervan. </p>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Treatments
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#swedish">Swedish Massage</a>
+            <a class="dropdown-item" href="#">Indian Head Massage</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Reflexology</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Prices</a>
+        </li>
+        </ul>   
+    </div>
+    
+</nav>
+
+
+<!--Carousel Cover Page -->
+<div class='home'>
+    <div id="page_slider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+                <li data-target="#page_slider" data-slide-to="0" class="active"></li>
+                <li data-target="#page_slider" data-slide-to="1"></li>
+                <li data-target="#page_slider" data-slide-to="2"></li>
+                <li data-target="#page_slider" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/slide_1.png" alt="Reflexology">
+                    <div class="carousel-caption d-block d-md-block carousel-text">
+                        <h5>Reflexology</h5>
+                        <p class="d-none d-md-block">A gental yet powerful holistic treatment involving the stiulation of speciifc points on the feet (or hands)</p>
+                        <button type="button" class="btn btn-outline-light d-none d-md-block" data-toggle="modal" data-target="#Reflexology">Find out more</button>
+                    </div>
                 </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/slide_2.png" alt="Second slide">	
+                    <div class="carousel-caption d-block d-md-block carousel-text">
+                            <h5>Swedish Massage</h5>
+                            <p class="d-none d-md-block">The gentle manipulation of the bodys soft tissues to break down fissures (knots) and tension</p>
+                            <button type="button" class="btn btn-outline-light d-none d-md-block" data-toggle="modal" data-target="#SwedishMassage">Find out more</button>
+                        </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/slide_3.png" alt="Third slide">
+                    <div class="carousel-caption d-block d-md-block carousel-text">
+                            <h5>Indian Head Massage</h5>
+                            <p class="d-none d-md-block">A deeply relaxing, gental treatment of the head, neck and shoulders.</p>
+                            <button type="button" class="btn btn-outline-light d-none d-md-block" data-toggle="modal" data-target="#IndianHead">Find out more</button>
+                        </div>
+                </div>
+                <div class="carousel-item">
+                        <img class="d-block w-100" src="images/slide_4.png" alt="Third slide">
+                        <div class="carousel-caption d-block d-md-block carousel-text">
+                                <h5>Feel the benefits of balance.</h5>
+                                <p class="d-none d-md-block">Get £5 of of your first treatment.	</p>
+                            </div>
+                    </div>
+            </div>
+            <a class="carousel-control-prev" href="#page_slider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#page_slider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div> <!-- #home   -->
+
+    <div class="padding">
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="col-sm-6 text-center">
+                <img src="images/profile.jpg" class="img-thumbnail img-fluid rounded mx-auto d-block" alt="Responsive image"> 
+            </div>
+            <div class="col-sm-6 mx-auto">
+                <h4 class="text-center"> Chrissy Jones - Holistic Therapist MFHT</h4>
+                <h4><small class="text-muted">Who am I...</small></h4>
+                <p> I was introduced to Complementary Therapies as a child when I was treated for severe headaches is suffered following a road traffic accident by an osteopath. Over the following years i turned to other therapies for various reasons and i have received chiropractic care, massage therapy and during a particularly turbulent time in my life i came across and fell in love with reflexology.
+                    Following my marriage and the subsequent relocation of our home i decided it was time to leave my previous career in HR and Recruitment and embark on a new path. 
+                    I initially qualified in Swedish Massage in 2010. This was followed by qualifications in Indian Head Massage, Pregnancy Massage and Reflexology. I offer these treatments as a mobile therapist or from my home. 
+
+                    On a personal note I have two children and a dog and i love spending time with the family and exploring new areas of the country in our campervan. </p>
             </div>
         </div>
+    </div>
+    </div>
+
+    <div id="fixed">
+    </div>
+
+    <div class="padding">
+    <div class="container-fluid">
+        <div class="row row-padding" id="reflex">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <h4 class="text-center">Reflexology</h4>
+            <img class="img-fluid rounded mx-auto d-block" src="images/reflex_sm.png">
         </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <h4 class="text-center"><small class="text-muted">A gentle yet powerful holistic treatment.</small></h4>
+            <p>Reflexology is a gentle yet powerful holistic treatment involving the stimulation of specific points on the feet (or hands)
+                    that correspond to certain parts of the body. By stimulating these points you promote the bodies natural healing process which 
+                    in turn enables nature balance and physical wellbeing.
 
-        <div class="padding">
-        <div class="container-fluid">
-            <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <h4 class="text-center">Reflexology</h4>
-                <img class="img-fluid rounded mx-auto d-block" src="images/reflex_sm.png">
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <h4 class="text-center"><small class="text-muted">A gentle yet powerful holistic treatment.</small></h4>
-                <p>Reflexology is a gentle yet powerful holistic treatment involving the stimulation of specific points on the feet (or hands)
-                        that correspond to certain parts of the body. By stimulating these points you promote the bodies natural healing process which 
-                        in turn enables nature balance and physical wellbeing.
-
-                        Benefits include:
-                            <ul>
-                                <li>Improved sleep</li>
-                                <li>Regulate hormone imbalance</li>
-                                <li>Relieve constipation</li>
-                                <li>Reduce headaches</li>
-                                <li>Can help with anxiety and depression</li>
-                                <li>Create a general feeling of wellbeing</li>
-                            </ul>
-
-                Treatments are clothed in a reclined chair, they last approcimately 1 hour.
-                </p>      
-            </div>   
-            </div>
-            <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <h4 class="text-center"><small class="text-muted">A gentle manipulation of the soft tissues.</small></h4>
-                <p>Swedish Massage is the gentle manipulation of the soft tissues through a mixture of strokes in order to breakdown
-                        fissures (knots), imporve circulation and provide relaxation.
-
-                        Benefits include:
+                    Benefits include:
                         <ul>
-                            <li>Relaxation</li>
-                            <li>Stress relief</li>
                             <li>Improved sleep</li>
-                            <li>Improved circulation</li>
-                            <li>Improved lymphatic drainage</li>
-                            <li>Reduce muscular aches and pains including headaches and backaches</li>
+                            <li>Regulate hormone imbalance</li>
+                            <li>Relieve constipation</li>
+                            <li>Reduce headaches</li>
+                            <li>Can help with anxiety and depression</li>
+                            <li>Create a general feeling of wellbeing</li>
                         </ul>
 
-                    Treatments last from 30mins to 1hr30 and include a full client consultation to tailor your treatemnt to you needs. 
-                    On your first treatment please allow an additional 15mins to complete the consultation and agreee any specifci requirements.
-                </p>    
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <h4 class="text-center">Swedish Massage</h4>
-                <img class="img-fluid rounded mx-auto d-block" src="images/swed_sm.png">
-            </div>   
-            </div>
-            <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <h4 class="text-center">Indian Head Massage</h4>
-                <img class="img-fluid rounded mx-auto d-block" src="images/indian_sm.png">  
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <h4 class="text-center"><small class="text-muted">Gentle but deeply relaxing..</small></h4>
-                <p>Indian Head massage is a gentle but deeply relaxing treatment of the head, neck and shoulders. Base don Treatments
-                        originating from India it is designed to completely relax the body and mind, enabling the natural energy pathways to clear and blance.
+            Treatments are clothed in a reclined chair, they last approcimately 1 hour.
+            </p>      
+        </div>   
+        </div>
+        <div class="row row-padding" id="swedish">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <h4 class="text-center">Swedish Massage</h4>
+            <p>Swedish Massage is the gentle manipulation of the soft tissues through a mixture of strokes in order to breakdown
+                    fissures (knots), imporve circulation and provide relaxation.
 
-                        Benefits include:
-                        <ul>
-                            <li>Deep relaxation</li>
-                            <li>Improved sleep</li>
-                            <li>Feeling of wellbeing/li>
-                            <li>Clearing of sinuses</li>
-                            <li>Reduction of headaches</li>
-                        </ul>
+                    Benefits include:
+                    <ul>
+                        <li>Relaxation</li>
+                        <li>Stress relief</li>
+                        <li>Improved sleep</li>
+                        <li>Improved circulation</li>
+                        <li>Improved lymphatic drainage</li>
+                        <li>Reduce muscular aches and pains including headaches and backaches</li>
+                    </ul>
 
-                    The treatment is seated and clohted involving the use of oils in the hair to nourish and condition. Indin head massages last approximately 45 mins.
-                </p>
-            </div>   
+                Treatments last from 30mins to 1hr30 and include a full client consultation to tailor your treatemnt to you needs. 
+                On your first treatment please allow an additional 15mins to complete the consultation and agreee any specifci requirements.
+            </p>    
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <h4 class="text-center"><small class="text-muted">A gentle manipulation of the soft tissues.</small></h4>
+            <img class="img-fluid rounded mx-auto d-block" src="images/swed_sm.png">
+        </div>   
+        </div>
+        <div class="row row-padding" id="indian">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <h4 class="text-center">Indian Head Massage</h4>
+            <img class="img-fluid rounded mx-auto d-block" src="images/indian_sm.png">  
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <h4 class="text-center"><small class="text-muted">Gentle but deeply relaxing..</small></h4>
+            <p>Indian Head massage is a gentle but deeply relaxing treatment of the head, neck and shoulders. Base don Treatments
+                    originating from India it is designed to completely relax the body and mind, enabling the natural energy pathways to clear and blance.
+
+                    Benefits include:
+                    <ul>
+                        <li>Deep relaxation</li>
+                        <li>Improved sleep</li>
+                        <li>Feeling of wellbeing/li>
+                        <li>Clearing of sinuses</li>
+                        <li>Reduction of headaches</li>
+                    </ul>
+
+                The treatment is seated and clohted involving the use of oils in the hair to nourish and condition. Indin head massages last approximately 45 mins.
+            </p>
+        </div>   
+        </div>
+    </div>
+    </div>
+
+    <div id="fixed"></div>
+
+    <div class="padding">
+        <h4 class="text-center">Prices</h4>
+        <table class="table table-hover w-50 mx-auto">
+            <thead>
+                <tr>
+                    <th scope="col">Treatment</th>
+                    <th scope="col">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Reflexology</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">Swedish Massage</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">Indian Head Massage</th>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Contact Us</h3>
+                <br>
+                <h4>Details Here</h4>
+            </div>
+            <div class="col-sm-4">
+                <h3>Connect</h3>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-fluid" src="images/logo_sm.png">
             </div>
         </div>
-        </div>
-
-        <div class="padding">
-            <h4 class="text-center">Prices</h4>
-            <table class="table table-hover w-50 mx-auto">
-                <thead>
-                    <tr>
-                        <th scope="col">Treatment</th>
-                        <th scope="col">Price</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Reflexology</th>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Swedish Massage</th>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Indian Head Massage</th>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-    </main>
-
-    <footer>
-
     </footer>
 
 </body>
