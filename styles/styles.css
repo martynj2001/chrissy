@@ -6773,7 +6773,8 @@ html, body {
 
 .navbar {
   padding: 1% 1%;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  border-bottom: #95ab63 1px solid; }
 
 .navbar-brand {
   min-height: 55px;
@@ -6786,6 +6787,12 @@ html, body {
   width: 100%;
   background-size: cover;
   padding-top: 150px; }
+
+.home-xs {
+  padding-top: 0px; }
+
+.title h3 {
+  padding-top: 20x; }
 
 .title {
   font-family: 'Bilbo', cursive;
@@ -6825,7 +6832,7 @@ a > img {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); }
 
 .padding {
-  padding: 80px 0; }
+  padding: 150px 0; }
 
 .padding h4 {
   padding: 5px 0; }
@@ -6833,8 +6840,19 @@ a > img {
 .row-padding {
   padding: 20px 0; }
 
+#profile_img {
+  padding: 50px; }
+
 #fixed {
   background: url("../images/fixed_img.PNG") no-repeat center center fixed;
+  display: table;
+  height: 40%;
+  position: relative;
+  width: 100%;
+  background-size: cover; }
+
+#fixed-2 {
+  background: url("../images/Fixed-2.jpeg") no-repeat center center fixed;
   display: table;
   height: 40%;
   position: relative;
@@ -6845,6 +6863,7 @@ footer {
   width: 100%;
   background-color: #e2f0d6;
   padding: 5% 5% 10% 5%;
-  color: #95ab63; }
+  color: #95ab63;
+  border-top: #95ab63 1px solid; }
 
 /*# sourceMappingURL=styles.css.map */
