@@ -44,19 +44,7 @@ html, body {
     min-height: 55px;
     padding: 0 5px 5px;
 }
-.home {
-    // Add background image that fits with carousel photos.
-    //background: url("../images/Background.JPG") no-repeat center center fixed; 
-    display: table;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    background-size: cover;
-    padding-top: 150px;   
-}
-.home-xs {
-    padding-top: 0px;
-}
+
 .title h3 {
     padding-top: 20x;
 }
@@ -65,6 +53,24 @@ html, body {
     color: rgb(149, 171, 99);
     font-size: 52px;
 }
+
+.home {
+    // Add background image that fits with carousel photos.
+    background: url("../images/title_bgnd.png") no-repeat center center fixed; 
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    padding-top: 150px;   
+}
+
+.home-xs {
+    padding-top: 0px;
+}
+
+
+
 a > img {
     padding-right: 10px;
 }
@@ -102,6 +108,8 @@ a > img {
 }
 .padding {
     padding: 150px 0;
+    border-bottom: rgb(149, 171, 99) 1px solid;
+    border-top: rgb(149, 171, 99) 1px solid;
 }
 .padding h4 {
     padding: 5px 0;
@@ -111,6 +119,44 @@ a > img {
 }
 #profile_img {
     padding: 50px;
+}
+@supports (-webkit-overflow-scrolling: touch){
+    #fixed {
+        background: url("../images/fixed_img.PNG") no-repeat center center fixed;
+        background-attachment: scroll;
+        display: table;
+        height: 40%;
+        position: relative;
+        width: 100%;
+       
+    }
+    #fixed-2 {
+        background: url("../images/Fixed-2.jpeg") no-repeat center center fixed;
+        background-attachment: scroll;
+        display: table;
+        height: 40%;
+        position: relative;
+        width: 100%;
+    
+    }
+}
+@supports not (-webkit-overflow-scrolling: touch){
+    #fixed {
+        background: url("../images/fixed_img.PNG") no-repeat center center fixed;
+        display: table;
+        height: 40%;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+    }
+    #fixed-2 {
+        background: url("../images/Fixed-2.jpeg") no-repeat center center fixed;
+        display: table;
+        height: 40%;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+    }
 }
 #fixed {
     background: url("../images/fixed_img.PNG") no-repeat center center fixed;

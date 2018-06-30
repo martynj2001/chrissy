@@ -6780,7 +6780,16 @@ html, body {
   min-height: 55px;
   padding: 0 5px 5px; }
 
+.title h3 {
+  padding-top: 20x; }
+
+.title {
+  font-family: 'Bilbo', cursive;
+  color: #95ab63;
+  font-size: 52px; }
+
 .home {
+  background: url("../images/title_bgnd.png") no-repeat center center fixed;
   display: table;
   height: 100%;
   position: relative;
@@ -6790,14 +6799,6 @@ html, body {
 
 .home-xs {
   padding-top: 0px; }
-
-.title h3 {
-  padding-top: 20x; }
-
-.title {
-  font-family: 'Bilbo', cursive;
-  color: #95ab63;
-  font-size: 52px; }
 
 a > img {
   padding-right: 10px; }
@@ -6832,7 +6833,9 @@ a > img {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); }
 
 .padding {
-  padding: 150px 0; }
+  padding: 150px 0;
+  border-bottom: #95ab63 1px solid;
+  border-top: #95ab63 1px solid; }
 
 .padding h4 {
   padding: 5px 0; }
@@ -6843,6 +6846,38 @@ a > img {
 #profile_img {
   padding: 50px; }
 
+@supports (-webkit-overflow-scrolling: touch) {
+  #fixed {
+    background: url("../images/fixed_img.PNG") no-repeat center center fixed;
+    background-attachment: scroll;
+    display: table;
+    height: 40%;
+    position: relative;
+    width: 100%; }
+
+  #fixed-2 {
+    background: url("../images/Fixed-2.jpeg") no-repeat center center fixed;
+    background-attachment: scroll;
+    display: table;
+    height: 40%;
+    position: relative;
+    width: 100%; } }
+@supports not (-webkit-overflow-scrolling: touch) {
+  #fixed {
+    background: url("../images/fixed_img.PNG") no-repeat center center fixed;
+    display: table;
+    height: 40%;
+    position: relative;
+    width: 100%;
+    background-size: cover; }
+
+  #fixed-2 {
+    background: url("../images/Fixed-2.jpeg") no-repeat center center fixed;
+    display: table;
+    height: 40%;
+    position: relative;
+    width: 100%;
+    background-size: cover; } }
 #fixed {
   background: url("../images/fixed_img.PNG") no-repeat center center fixed;
   display: table;

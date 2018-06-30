@@ -13,11 +13,19 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 	
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
     <a class="title navbar-brand d-md-block d-none" href="#"><img src="images/logo-sm.png"></a>
@@ -28,18 +36,21 @@
     
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="nav navbar-nav mr-auto">
-        <li class="nav-item active">
-            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="footer">Contact</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#treatments">Treatments</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#prices">Prices</a>
-        </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="footer">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#treatments">Treatments</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#prices">Prices</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item"><div class="fb-like" data-href="http://www.basixs.co.uk" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div></li>
         </ul>   
     </div>
 </nav>
@@ -108,10 +119,10 @@
     <div class="container-fluid">
         <h4 class="text-center"> Chrissy Jones - Holistic Therapist MFHT</h4>
         <div class="row">
-            <div class="col-sm-6 text-center" id="profile_img">
+            <div class="col-sm-4 text-center" id="profile_img">
                 <img src="images/profile.jpg" class="img-thumbnail img-fluid rounded mx-auto d-block" alt="Responsive image"> 
             </div>
-            <div class="col-sm-6 mx-auto">
+            <div class="col-sm-8 mx-auto">
                 <h4><small class="text-muted">Who am I...</small></h4>
                 <p> I was introduced to Complementary Therapies as a child when I was treated for severe headaches is suffered following a road traffic accident by an osteopath. Over the following years i turned to other therapies for various reasons and i have received chiropractic care, massage therapy and during a particularly turbulent time in my life i came across and fell in love with reflexology.
                     Following my marriage and the subsequent relocation of our home i decided it was time to leave my previous career in HR and Recruitment and embark on a new path. 
@@ -235,18 +246,15 @@
     <footer class="container-fluid text-center">
         <div class="row">
             <div class="col-sm-4">
-                <h3>Contact Us</h3>
-                <br>
-                <h4>Details Here</h4>
             </div>
             <div class="col-sm-4">
                 <h3>Connect</h3>
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-facebook fa-lg"></a>
+                <a href="#" class="fa fa-twitter fa-lg"></a>
+                <!--<a href="#" class="fa fa-linkedin"></a>-->
             </div>
             <div class="col-sm-4">
-                <img class="img-fluid" src="images/logo_sm.png">
+               <!-- <img class="img-fluid" src="images/logo-sm.png">-->
             </div>
         </div>
     </footer>
