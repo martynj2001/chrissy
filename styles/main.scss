@@ -120,7 +120,7 @@ a > img {
 #profile_img {
     padding: 50px;
 }
-@supports (-webkit-overflow-scrolling: touch){
+/*@supports (-webkit-overflow-scrolling: touch){
     #fixed {
         background: url("../images/fixed_img.PNG") no-repeat center center fixed;
         background-attachment: scroll;
@@ -157,22 +157,30 @@ a > img {
         width: 100%;
         background-size: cover;
     }
-}
+}*/
 #fixed {
-    background: url("../images/fixed_img.PNG") no-repeat center center fixed;
+    background: url("../images/Fixed-2.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: table;
     height: 40%;
     position: relative;
     width: 100%;
-    background-size: cover;
+    
 }
 #fixed-2 {
-    background: url("../images/Fixed-2.jpeg") no-repeat center center fixed;
+    background: url("../images/fixed-3.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: table;
     height: 40%;
     position: relative;
     width: 100%;
-    background-size: cover;
+    
 }
 
 footer {

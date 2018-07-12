@@ -143,6 +143,7 @@
     </div>
 
     <div id="fixed-2">
+        <script type="text/javascript">$(".fixed-2").backstretch("../images/Fixed-2.jpeg")</script>
     </div>
 
     <div class="padding" id="treatments">
@@ -267,7 +268,26 @@
             </div>
         </div>
     </footer>
-
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+            appId            : '714682315532202',
+            autoLogAppEvents : true,
+            xfbml            : true,
+            version          : 'v2.12'
+            });
+        };
+        
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div class="fb-customerchat" page_id="957287624435193"></div>
+<script type "text/javascript" src="/node_modules/jquery-backstretch/jquery.backstretch.min.js"></script>
 </body>
 
 <!-- Modals -->
