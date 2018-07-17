@@ -6789,7 +6789,8 @@ html, body {
   font-size: 52px; }
 
 .home {
-  background: url("../images/title_bgnd.png") no-repeat center center fixed;
+  /* Add background image that fits with carousel photos.
+  background: url("../images/title_bgnd.png") no-repeat center center fixed; */
   display: table;
   height: 100%;
   position: relative;
@@ -6846,63 +6847,25 @@ a > img {
 #profile_img {
   padding: 50px; }
 
-/*@supports (-webkit-overflow-scrolling: touch){
-    #fixed {
-        background: url("../images/fixed_img.PNG") no-repeat center center fixed;
-        background-attachment: scroll;
-        display: table;
-        height: 40%;
-        position: relative;
-        width: 100%;
-       
-    }
-    #fixed-2 {
-        background: url("../images/Fixed-2.jpeg") no-repeat center center fixed;
-        background-attachment: scroll;
-        display: table;
-        height: 40%;
-        position: relative;
-        width: 100%;
-    
-    }
-}
-@supports not (-webkit-overflow-scrolling: touch){
-    #fixed {
-        background: url("../images/fixed_img.PNG") no-repeat center center fixed;
-        display: table;
-        height: 40%;
-        position: relative;
-        width: 100%;
-        background-size: cover;
-    }
-    #fixed-2 {
-        background: url("../images/Fixed-2.jpeg") no-repeat center center fixed;
-        display: table;
-        height: 40%;
-        position: relative;
-        width: 100%;
-        background-size: cover;
-    }
-}*/
-#fixed {
-  background: url("../images/Fixed-2.jpeg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.fixed {
+    /*background: url("../images/Fixed-2.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
   display: table;
-  height: 40%;
+  height: 100%;
   position: relative;
   width: 100%; }
 
-#fixed-2 {
-  background: url("../images/fixed-3.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.fixed-2 {
+    /*background: url("../images/fixed-3.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
   display: table;
-  height: 40%;
+  height: 100%;
   position: relative;
   width: 100%; }
 
@@ -6912,5 +6875,13 @@ footer {
   padding: 5% 5% 10% 5%;
   color: #95ab63;
   border-top: #95ab63 1px solid; }
+
+.treat-link {
+  text-decoration: none;
+  color: black; }
+
+.treat-link:hover {
+  text-decoration: none;
+  color: #e2f0d6; }
 
 /*# sourceMappingURL=styles.css.map */
