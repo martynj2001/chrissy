@@ -1,0 +1,1 @@
+$.backstretch("../images/Fixed-2.jpeg");

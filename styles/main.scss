@@ -35,6 +35,11 @@ html, body {
     width: 100%;
     font-family: 'Raleway', sans-serif;
 }
+.content {
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;  
+}
 .navbar {
     padding: 1% 1%;
     font-size: 1.2em;
@@ -44,7 +49,10 @@ html, body {
     min-height: 55px;
     padding: 0 5px 5px;
 }
-
+.fixed-top {
+    width: 85%;
+    margin: 0 auto;
+}
 .title h3 {
     padding-top: 20x;
 }
@@ -65,10 +73,22 @@ html, body {
     padding-top: 150px;
 }
 
-.home-xs {
-    padding-top: 0px;
+.home, .t-row, #about, #prices, #treatments {
+    background-color: #e2f0d6;
+    opacity: 0.9;
 }
-
+#about, #prices, #treatments {
+    border: rgb(149, 171, 99) 1px solid;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.gap {
+    height: 10%;
+}
+.t-gap {
+    height: 20px;
+}
 
 
 a > img {
@@ -114,12 +134,23 @@ a > img {
 .padding h4 {
     padding: 5px 0;
 }
+.t-padding {
+    padding: 85px 0;
+}
+.t-row {
+    border: rgb(149, 171, 99) 1px solid;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
 .row-padding{
     padding: 20px 0;
 }
 #profile_img {
     padding: 50px;
 }
+
+
 
 .fixed {
     /*background: url("../images/Fixed-2.jpeg") no-repeat center center fixed;
