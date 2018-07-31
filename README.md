@@ -8,7 +8,7 @@ To Do:
 2.  Prices - add actual data.
 3.  Footer - better links to facebook, more widgets!
 
-4.  Redesign with main page margins (left & right) and background image (fixed-2.jpeg).
+4.  Redesign with main page margins (left & right) and background image (fixed-2.jpeg) - Done
 
 5.  AJAX module for treatments page - see JS book for exmaple (experimental - just for learning)
 

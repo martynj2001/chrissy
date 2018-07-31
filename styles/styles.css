@@ -6797,7 +6797,7 @@ html, body {
   color: #95ab63;
   font-size: 52px; }
 
-.home {
+.home, .pp-home {
   /* Add background image that fits with carousel photos.
   background: url("../images/title_bgnd.png") no-repeat center center fixed; */
   display: table;
@@ -6807,7 +6807,10 @@ html, body {
   background-size: cover;
   padding-top: 150px; }
 
-.home, .t-row, #about, #prices, #treatments {
+.pp-home {
+  padding: 20px; }
+
+.home, .pp-home, .t-row, #about, #prices, #treatments {
   background-color: #e2f0d6;
   opacity: 0.9; }
 
@@ -6872,39 +6875,20 @@ a > img {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px; }
 
+.text-box {
+  border: #95ab63 1px solid;
+  width: 50%; }
+
 .row-padding {
   padding: 20px 0; }
 
 #profile_img {
   padding: 50px; }
 
-.fixed {
-    /*background: url("../images/Fixed-2.jpeg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
-  display: table;
-  height: 100%;
-  position: relative;
-  width: 100%; }
-
-.fixed-2 {
-    /*background: url("../images/fixed-3.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
-  display: table;
-  height: 100%;
-  position: relative;
-  width: 100%; }
-
 footer {
   width: 100%;
   background-color: #e2f0d6;
-  padding: 5% 5% 10% 5%;
-  color: #95ab63;
+  padding: 2%;
   border-top: #95ab63 1px solid; }
 
 .treat-link {
@@ -6914,5 +6898,24 @@ footer {
 .treat-link:hover {
   text-decoration: none;
   color: #e2f0d6; }
+
+ul {
+  display: inline; }
+
+li {
+  list-style-type: none; }
+
+.fine-print {
+  display: inline;
+  list-style-type: none;
+  margin: 0 20px; }
+
+#map {
+  width: 95%;
+  height: 200px; }
+
+#fbp-id {
+  color: black;
+  font-size: 12px; }
 
 /*# sourceMappingURL=styles.css.map */

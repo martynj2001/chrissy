@@ -62,7 +62,7 @@ html, body {
     font-size: 52px;
 }
 
-.home {
+.home, .pp-home {
     /* Add background image that fits with carousel photos.
     background: url("../images/title_bgnd.png") no-repeat center center fixed; */
     display: table;
@@ -72,8 +72,12 @@ html, body {
     background-size: cover;
     padding-top: 150px;
 }
+.pp-home {
+    padding: 20px;
+}
 
-.home, .t-row, #about, #prices, #treatments {
+
+.home, .pp-home, .t-row, #about, #prices, #treatments {
     background-color: #e2f0d6;
     opacity: 0.9;
 }
@@ -137,11 +141,17 @@ a > img {
 .t-padding {
     padding: 85px 0;
 }
+
 .t-row {
     border: rgb(149, 171, 99) 1px solid;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
+}
+
+.text-box {
+    border: rgb(149, 171, 99) 1px solid;
+    width: 50%;
 }
 .row-padding{
     padding: 20px 0;
@@ -150,38 +160,10 @@ a > img {
     padding: 50px;
 }
 
-
-
-.fixed {
-    /*background: url("../images/Fixed-2.jpeg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
-    display: table;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    
-}
-.fixed-2 {
-    /*background: url("../images/fixed-3.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
-    display: table;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    
-}
-
 footer {
     width: 100%;
     background-color: #e2f0d6;
-    padding: 5% 5% 10% 5%;
-    color:  rgb(149, 171, 99);
+    padding: 2%;
     border-top: rgb(149, 171, 99) 1px solid;
 }
 
@@ -192,4 +174,26 @@ footer {
 .treat-link:hover {
     text-decoration: none;
     color: #e2f0d6;
+}
+ul {
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+}
+
+.fine-print {
+    display: inline;
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+#map {
+    width: 95%;
+    height: 200px;
+}
+#fbp-id {
+    color: black;
+    font-size: 12px;
 }
