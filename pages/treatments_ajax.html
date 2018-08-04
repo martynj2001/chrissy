@@ -60,7 +60,7 @@
                     <a class="nav-link" href="../index.html#about">About</a>
                 </li>
                 <li class="nav-item active">
-                        <a class="nav-link" href="#">Treatments</a>
+                    <a class="nav-link" onclick="loadtreatment('home')">Treatments</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../index.html#prices">Prices</a>
@@ -77,16 +77,37 @@
     <div class="t-padding"></div>
     <div class="t-row">
         <div class="row">
-            <div class="col-xs-12 col-sm-3 col-md-3">
-                
+            <div class="col-xs-12 col-sm-3 col-md-3 p-4">
+                <button class=" btn btn-outline-dark border border-dark rounded" type="button" onclick="loadtreatment('reflexology')">
+                    <img class="img-fluid rounded mx-auto d-block p-3" style="width: 232px; height: 112px;" src="../images/reflex_sm.png">
+                    <h4 id="t-reflex" class="text-center">Reflexology</h4>
+                </button>
+                <div class="t-gap"></div>
+                <button class=" btn btn-outline-dark border border-dark rounded" type="button" onclick="loadtreatment('swedish')">
+                    <img class="img-fluid rounded mx-auto d-block p-3" style="width: 232px; height: 112px;" src="../images/swed_sm.png">
+                    <h4 id="t-massage" class="text-center">Swedish Massage</h4>
+                </button>
+                <div class="t-gap"></div>
+                <button class=" btn btn-outline-dark border border-dark rounded" type="button" onclick="loadtreatment('indian')">
+                    <img class="img-fluid rounded mx-auto d-block p-3" style="width: 232px; height: 112px;" src="../images/indian_sm.png">
+                    <h5 id="t-indian" class="text-center">Indian Head Massage</h5>
+                </button>
             </div>
-            <div class="col-xs-12 col-sm-9 col-md-9">
-
+            <div class="col-xs-12 col-sm-9 col-md-9 p-3 pr-5">
+                <h2 id="t-name" class="text-center">My Treatments</h2>
+                <h5 id="t-shortdesc" class="text-center pt-3">Feel the Benefits of Balance.</h5>
+                <p id="t-longdesc" class="pt-3">I have number of standard treatments, click on each to find out more including the benfits they can bring.</p>
+                <p class="mb-0 lead"></p>
+                <ul id="t-benefits"></ul>
+                <p id="t-details" class="pt-3">Each treatment can be tailored to your specific needs, feel free to get in contact via the messenger button to discuss your needs.</p>
+                <p id="t-cost"></p>
+                <ul id="s-costs" class="p-0 m-0"></ul>
+                <p id="title-ultimate" class="pt-3 lead"><p id="desc-ultimate"></p></p>
+                <p id="cost-ultimate"></p>
+                <p id="title-balance" class="lead"><p id="desc-balance"></p></p>
+                <p id="cost-balance"></p>
             </div>
-            <div
         </div>
-        <div class="row"></div>
-        <div class="row"></div>
     </div>
     <div class="t-gap"></div>
     <footer class="text-center">
@@ -113,6 +134,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.3/jquery.backstretch.min.js"></script>
 <script src="../js/b-stretch-tp.js"></script>
+<script src="../js/treatments.js"></script>
 
 </body>
 </html>

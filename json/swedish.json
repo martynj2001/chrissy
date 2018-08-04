@@ -1,0 +1,16 @@
+{
+    "name":"Swedish Massage",
+    "short_desc":"Swedish Massage works the soft tissues of the body to promote relaxation and reduce muscular tension.",
+    "long_desc":"Swedish Massage is the gentle working of the body’s soft tissue through a mixture of strokes in order to break down fissures (knots), improve circulation and provide relaxation.",
+    "benefits": ["Deep relaxation.","Stress relief.","Improved sleep.","Improve circulation.","Encourage lymphatic drainage.","Reduce muscular aches and pains including headaches and backaches."],
+    "details":"Treatments last anything from 30mins -1hr 30 depending on the treatment and include a client consultation. For first treatments allow an extra 15 minutes to go through the consultation form and agree any specific requirements.",
+    "costs":["Full body massage - 1hr - £35","Back, neck and shoulder massage - 30mins. - £25","Back Massage - 30 mins - £20", "Legs only - 30 mins - £20"],
+    "title_ultimate":"Ultimate Relaxation and Rebalance.",
+    "cost_ultimate":"1hr £30 - £50",
+    "desc_ultimate":"A full body massage including a reflexology treatment tailored specifically to the your requirements.",
+    "title_balance":"Bring the Balance Back.",
+    "cost_balance":"1hr £35",
+    "desc_balance":"A relaxing back massage coupled with a focussed reflexology treatment, relaxing and restoring the harmony between body and mind."
+
+}
+  

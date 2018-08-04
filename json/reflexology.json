@@ -1,0 +1,8 @@
+{  
+    "name":"Reflexology", 
+    "short_desc":"A gentle yet powerful holistic treatment which stimulates points on the feet (or hands) to encourage the bodies natural healing process and promote relaxation.",
+    "long_desc":"Reflexology is a gentle yet powerful holistic treatment involving the stimulation of specific points on the feet (or hands) that correspond to certain parts of the body. The principle is that by stimulating these points it promotes the bodies’ natural healing process encouraging a feeling of well-being, relaxation and mind/body balance.",
+    "benefits": ["Improved sleep.","Regulate hormone imbalance.","Relieve constipation.","Reduce headaches","Reduce headaches","Create a general feeling of well-being","Relaxation"],
+    "details":"Treatments usually last about an hour and require the removal of socks. Please allow 15 minutes for a full client consultation with your first treatment",
+    "cost":"Reflexology - 1hr - £35"    
+}

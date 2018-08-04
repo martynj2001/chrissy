@@ -58,16 +58,19 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="pages/treatments.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <li class="nav-item">
+                        <a class="nav-link" href="pages/treatments_ajax.html?home">Treatments</a>
+                </li>
+                <!--<li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="pages/treatments_ajax.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Treatments
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="pages/treatments.html">Reflexology</a>
+                        <a class="dropdown-item" href="pages/treatments_ajax.html" onclick="loadtreatment('reflexology')">Reflexology</a>
                         <a class="dropdown-item" href="pages/treatments.html#swedish">Swedish Massage</a>
                         <a class="dropdown-item" href="pages/treatments.html#indian">Indian Head Massage</a>
                     </div>
-                </li>
+                </li>-->
                 <li class="nav-item">
                     <a class="nav-link" href="#prices">Prices</a>
                 </li>
@@ -160,10 +163,13 @@
             </div>
             <div class="col-sm-8 mx-auto">
                 <h4><small class="text-muted">Who am I...</small></h4>
-                <p> II was introduced to complementary therapies as a child when I saw an Osteopath for treatment for severe headaches following a road traffic accident. Over the years I have often used complimentary therapies for both relaxation and for my general health and well being.                        In 2009 I decided to move away from a previous career in HR and recruitment and follow my dream of becoming a complementary therapist. 
-                    I initially qualified in Swedish Massage in 2010. This was followed by qualifications in Indian Head Massage and Reflexology. I am able to offer these treatments from a dedicated room in my home or alternatively as a mobile therapist. 
-                    I am married and have two children and a dog and I love spending time with the family and exploring new areas of the country in our campervan.</p>
-            </div>
+                <p> I was introduced to complementary therapies as a child when I saw an Osteopath for treatment for severe headaches following a road traffic accident. Over the years I have often used complimentary therapies for both relaxation and for my general health and well being.
+
+                        In 2009 I decided to move away from a previous career in HR and recruitment and follow my dream of becoming a complementary therapist. 
+                        
+                        I initially qualified in Swedish Massage in 2010. This was followed by qualifications in Indian Head Massage and Reflexology. I am able to offer these treatments from a dedicated room in my home or alternatively as a mobile therapist. 
+                        
+                        I am married and have two children and a dog and I love spending time with the family and exploring new areas of the country in our campervan. </div>
         </div>
     </div>
     </div>
@@ -172,7 +178,7 @@
     <div class="container-fluid">
         <div class="row row-padding" id="reflex">
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mx-auto">
-            <a class="treat-link" href="pages/treatments.html#reflex">
+            <a class="treat-link" href="pages/treatments_ajax.html?reflexology">
                     <h4 class="text-center">Reflexology</h4>
                     <img class="img-fluid rounded mx-auto d-block" src="images/reflex_sm.png">
                     <h4 class="text-center"><small class="text-muted">A gentle yet powerful holistic treatment.</small></h4>
@@ -182,7 +188,7 @@
         </div>
         <div class="row row-padding" id="swedish">
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mx-auto">
-            <a class="treat-link" href="pages/treatments.html#swedish">
+            <a class="treat-link" href="pages/treatments_ajax.html?swedish">
                 <h4 class="text-center">Swedish Massage</h4>
                 <img class="img-fluid rounded mx-auto d-block" src="images/swed_sm.png">
                 <h4 class="text-center"><small class="text-muted">A gentle manipulation of the soft tissues.</small></h4>  
@@ -191,7 +197,7 @@
         </div>
         <div class="row row-padding" id="indian">
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mx-auto">
-            <a class="treat-link" href="pages/treatments.html#indian">
+            <a class="treat-link" href="pages/treatments_ajax.html?indian">
                 <h4 class="text-center">Indian Head Massage</h4>
                 <img class="img-fluid rounded mx-auto d-block" src="images/indian_sm.png">  
                 <h4 class="text-center"><small class="text-muted">Gentle but deeply relaxing.</small></h4>
@@ -287,8 +293,8 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
-                    <a class="btn btn-outline-secondary" href="pages/treatments.html">Treatments</a>
-                    <a class="btn btn-outline-secondary" href="#">Contact</a>
+                    <a class="btn btn-outline-secondary" href="pages/treatments_ajax.html">Treatments</a>
+                    <a class="btn btn-outline-secondary" href="pages/contact.html">Contact</a>
                 </div>
             </div>
         </div>
@@ -317,11 +323,6 @@
                         Encourage lymphatic drainage
                         Reduce muscular aches and pains including headaches and backaches.
                         
-                        
-                         
-
-
-
                     <p>Swedish Massage is the gentle manipulation of the soft tissues through a mixture of strokes in order to breakdown
                         fissures (knots), imporve circulation and provide relaxation.
 
@@ -338,8 +339,8 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
-                    <a class="btn btn-outline-secondary" href="pages/treatments.html">Treatments</a>
-                    <a class="btn btn-outline-secondary" href="#">Contact</a>
+                    <a class="btn btn-outline-secondary" href="pages/treatments_ajax.html">Treatments</a>
+                    <a class="btn btn-outline-secondary" href="pages/contact.html">Contact</a>
                 </div>
             </div>
         </div>
@@ -371,8 +372,8 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
-                    <a class="btn btn-outline-secondary" href="pages/treatments.html">Treatments</a>
-                    <a class="btn btn-outline-secondary" href="#">Contact</a>
+                    <a class="btn btn-outline-secondary" href="pages/treatments_ajax.html">Treatments</a>
+                    <a class="btn btn-outline-secondary" href="pages/contact.html">Contact</a>
                 </div>
             </div>
         </div>
