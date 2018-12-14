@@ -1,5 +1,5 @@
 
-$.backstretch("images/Fixed-2.jpeg");
+$.backstretch("images/background_page.jpg");
 
 
 
