@@ -15,19 +15,19 @@ function loadtreatment(treatment_type){
             
             // Clear any list items.
             var ul = document.getElementById("t-benefits");
-            var s_ul = document.getElementById("s-costs");
+            //var s_ul = document.getElementById("s-costs");
             while (ul.hasChildNodes()){
                 ul.removeChild(ul.firstChild);
             }
-            while (s_ul.hasChildNodes()){
+            /*while (s_ul.hasChildNodes()){
                 s_ul.removeChild(s_ul.firstChild);
-            }
-            document.getElementById("title-ultimate").innerHTML = "";
-            document.getElementById("desc-ultimate").innerHTML = "";
-            document.getElementById("cost-ultimate").innerHTML = "";
-            document.getElementById("title-balance").innerHTML = "";
-            document.getElementById("desc-balance").innerHTML = "";
-            document.getElementById("cost-balance").innerHTML = "";
+            }*/
+            //document.getElementById("title-ultimate").innerHTML = "";
+            //document.getElementById("desc-ultimate").innerHTML = "";
+            //document.getElementById("cost-ultimate").innerHTML = "";
+            //document.getElementById("title-balance").innerHTML = "";
+            //document.getElementById("desc-balance").innerHTML = "";
+            //document.getElementById("cost-balance").innerHTML = "";
             var array = txtobj.benefits;
             for (var i = 0; i < array.length; i++){
                 var li = document.createElement("li");
@@ -35,7 +35,7 @@ function loadtreatment(treatment_type){
                 ul.appendChild(li);
             }
             document.getElementById("t-details").innerHTML = txtobj.details;
-            if (treatment_type == 'swedish'){
+            /*if (treatment_type == 'swedish'){
                 document.getElementById("t-cost").innerHTML = "You can choose from mulitple options or simply contact me via the Messenger button to discuss."
                 var s_array = txtobj.costs;
                 for (var s = 0; s < s_array.length; s++){
@@ -50,9 +50,9 @@ function loadtreatment(treatment_type){
                 document.getElementById("desc-balance").innerHTML = txtobj.desc_balance;
                 document.getElementById("cost-balance").innerHTML = txtobj.cost_balance;
             } 
-            else { 
-                document.getElementById("t-cost").innerHTML = txtobj.cost;
-            }
+            else { */
+            document.getElementById("t-cost").innerHTML = txtobj.cost;
+            //}
                 
         }
     }; 
