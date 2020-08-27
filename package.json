@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/martynj2001/chrissy#readme",
   "dependencies": {
-    "bootstrap": "^4.1.1",
+    "bootstrap": "^4.3.1",
     "jquery-backstretch": "^2.1.16"
   }
 }
